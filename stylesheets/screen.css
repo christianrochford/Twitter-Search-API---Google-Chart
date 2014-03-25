@@ -1,0 +1,271 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 17, ../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.3/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 11, ../sass/screen.scss */
+h1 {
+  font-family: Helvetica;
+  color: #ff3300;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 900;
+  margin: 50px 10% 0;
+}
+
+/* line 19, ../sass/screen.scss */
+#twitterfeed {
+  width: 500px;
+  float: left;
+  margin: 50px 0 0 10%;
+}
+/* line 23, ../sass/screen.scss */
+#twitterfeed p#label {
+  display: block;
+  background-color: #ff3300;
+  width: 249px;
+  height: 30px;
+  padding: 10px 0;
+  font-family: Helvetica;
+  font-size: 2em;
+  color: white;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* line 36, ../sass/screen.scss */
+#twitterfeed #hasgtagTable, #twitterfeed #twCountTable {
+  width: 50%;
+  float: left;
+}
+/* line 39, ../sass/screen.scss */
+#twitterfeed #hasgtagTable li, #twitterfeed #hasgtagTable input, #twitterfeed #twCountTable li, #twitterfeed #twCountTable input {
+  height: 46px;
+  width: 244px;
+  font-family: Helvetica;
+  font-size: 1em;
+  text-transform: lowercase;
+  text-align: center;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 6px 0;
+  border: 1px solid #ff3300;
+  margin: 1px 2px;
+}
+/* line 53, ../sass/screen.scss */
+#twitterfeed #hasgtagTable:nth-child(2n+1) td, #twitterfeed #twCountTable:nth-child(2n+1) td {
+  background-color: rgba(255, 51, 0, 0.1);
+}
+/* line 56, ../sass/screen.scss */
+#twitterfeed #hasgtagTable li, #twitterfeed #twCountTable li {
+  padding: 6px 0;
+  line-height: 3em;
+}
+/* line 60, ../sass/screen.scss */
+#twitterfeed #hasgtagTable li.label, #twitterfeed #twCountTable li.label {
+  background-color: #ff3300;
+  height: 33px;
+  width: 247px;
+  font-family: Helvetica;
+  font-size: 2em;
+  color: white;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1.2em;
+  border-bottom: none;
+  padding: 8px 0;
+  margin: 0 0 0 1px;
+}
+/* line 76, ../sass/screen.scss */
+#twitterfeed #hasgtagTable .input-button:hover, #twitterfeed #hasgtagTable .input-button:focus, #twitterfeed #hasgtagTable .input-button:active, #twitterfeed #twCountTable .input-button:hover, #twitterfeed #twCountTable .input-button:focus, #twitterfeed #twCountTable .input-button:active {
+  color: #ff3300;
+  background-color: white;
+}
+/* line 82, ../sass/screen.scss */
+#twitterfeed #add {
+  width: 244px;
+  margin: 1px 3px 1px 2px;
+  padding: 9px 0;
+}
+/* line 87, ../sass/screen.scss */
+#twitterfeed #hashtagTable {
+  width: 50%;
+  float: left;
+}
+/* line 91, ../sass/screen.scss */
+#twitterfeed #twCountTable {
+  margin-top: -50px;
+}
+
+/* line 95, ../sass/screen.scss */
+#button-wrap {
+  width: 251px;
+  float: left;
+}
+
+/* line 100, ../sass/screen.scss */
+#dashboard {
+  width: 40%;
+  float: left;
+  margin: 50px 0 0 10%;
+}
+/* line 104, ../sass/screen.scss */
+#dashboard label {
+  font-family: Helvetica;
+  font-size: 1em;
+  color: #ff3300;
+  text-transform: uppercase;
+}
+/* line 110, ../sass/screen.scss */
+#dashboard .google-visualization-controls-stringfilter INPUT {
+  background-color: #ff3300;
+  border: none;
+  color: white;
+}
+/* line 114, ../sass/screen.scss */
+#dashboard .google-visualization-controls-stringfilter INPUT:focus {
+  border-color: white;
+}
+
+/* line 120, ../sass/screen.scss */
+.button, .input-button {
+  display: block;
+  width: 224px;
+  height: 30px;
+  float: left;
+  margin: 0 2px 1px;
+  float: left;
+  font-family: Helvetica;
+  color: white;
+  background-color: #ff3300;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  line-height: 2em;
+  padding: 10px;
+  border: 1px solid #ff3300;
+  box-sizing: content-box;
+  -webkit-transition: all 500ms ease-out;
+  -moz-transition: all 500ms ease-out;
+  -o-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+}
+/* line 141, ../sass/screen.scss */
+.button:hover, .button:focus, .button:active, .input-button:hover, .input-button:focus, .input-button:active {
+  color: #ff3300;
+  background-color: white;
+}
+
+/* line 146, ../sass/screen.scss */
+.input-button {
+  color: #ff3300;
+  background-color: white;
+}
+/* line 149, ../sass/screen.scss */
+.input-button:hover, .input-button:focus, .input-button:active {
+  color: #ff3300;
+  background-color: white;
+}
+
+/* line 155, ../sass/screen.scss */
+.tweetCount, .tag {
+  display: none;
+}
+
+/* line 158, ../sass/screen.scss */
+#login, #logout {
+  font-family: Helvetica;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 900;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  width: 200px;
+  float: right;
+  margin-right: 10%;
+  background-color: #ff3300;
+  padding: 10px;
+  -webkit-transition: all 500ms ease-out;
+  -moz-transition: all 500ms ease-out;
+  -o-transition: all 500ms ease-out;
+  transition: all 500ms ease-out;
+}
+/* line 175, ../sass/screen.scss */
+#login:hover, #login:focus, #login:active, #logout:hover, #logout:focus, #logout:active {
+  color: #ff3300;
+  background-color: white;
+  border: 1px solid #ff3300;
+}
+
+/* line 182, ../sass/screen.scss */
+#login {
+  float: left;
+  margin: 50px 0 0 10%;
+}
